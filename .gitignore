@@ -21,3 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/kono.iml
+.idea
+/kono_eureka/.mvn
+/kono_eureka/target
+/kono_eureka/.gitignore
+/kono_eureka/HELP.md
+/kono_eureka/mvnw
+/kono_eureka/mvnw.cmd
