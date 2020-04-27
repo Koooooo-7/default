@@ -29,3 +29,6 @@ hs_err_pid*
 /kono_eureka/HELP.md
 /kono_eureka/mvnw
 /kono_eureka/mvnw.cmd
+/kono_auth/.mvn
+/kono_auth/mvnw.cmd
+/kono_auth/mvnw

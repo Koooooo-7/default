@@ -1,0 +1,14 @@
+server:
+  port: 12110
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:12001/eureka/
+  instance:
+    appname: kono-auth
+    prefer-ip-address: true
+    instance-id: ${eureka.instance.appname}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+
+
