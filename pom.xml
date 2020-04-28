@@ -15,7 +15,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <properties>
+        <mybatis.plus.boot.starter.version>3.1.2</mybatis.plus.boot.starter.version>
+        <jjwt.version>0.7.0</jjwt.version>
+    </properties>
 
     <modules>
         <module>kono_eureka</module>
