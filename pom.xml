@@ -24,6 +24,8 @@
         <module>kono_eureka</module>
         <module>kono_common</module>
         <module>kono_auth</module>
+        <module>kono_gateway</module>
+        <module>kono_sms</module>
     </modules>
 
 

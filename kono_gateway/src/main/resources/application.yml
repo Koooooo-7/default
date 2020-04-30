@@ -1,0 +1,12 @@
+server:
+  port: 12000
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: path_route
+        # 被转发的地址
+        uri: https://koooooo.ko8e24.top/
+        predicates:
+        # 匹配的路由，并会携带到跳转地址https://koooooo.ko8e24.top/patch
+        - Path=/patch
