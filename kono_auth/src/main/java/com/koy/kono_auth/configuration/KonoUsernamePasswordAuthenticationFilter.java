@@ -37,8 +37,7 @@ public class KonoUsernamePasswordAuthenticationFilter extends UsernamePasswordAu
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
 
         // 如果不是Json信息，放行
-        if (!request.getContentType().equals(MediaType.APPLICATION_JSON_VALUE)
-        ) {
+        if (!request.getContentType().equals(MediaType.APPLICATION_JSON_VALUE)) {
             this.attemptAuthentication(request, response);
         }
 
